@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="icon" href="images/Logo icon.png">
+    <script src="js/calc.js"></script>
+       <title>Muscle Munch: Calculadora</title>
+</head>
+
+<body>
+	<div class="second">
+	<nav class="navbar navbar-light navbar-expand-sm fixed-top" id="top">
+        <div class="container">
+           <a class="navbar-brand" href="index.html"><img src="Images/LOGO.png" height="50.6" width="212"></a>
+           
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+.
+                    <li class="nav-item"><a class="nav-link" href="index.html"></span> Inicio</b></a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"></span>Sobre el producto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html"></span> Beneficios</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contact.html"></span> Calculadora</a></li>
+                   
+
+                </ul>   
+              </div>
+
+        </div>
+        
+    </nav>
+
+<div class="row row-content make-black">
+           <div class="col-9 offset-2  small">
+            
+
+            <div id='GETD_container'>
+                <h1>Calculadora De Gasto Energético Total Diario</h1><br>
+                <label for="weight_getd">Peso (kg): </label>
+                <input type= "text", id="weight_getd"><br><br>
+                <label for="height_getd">Altura (cm): </label>
+                <input type= "text", id="height_getd" ><br><br>
+                <label for="age">Edad (años): </label>
+                <input type= "text", id="age" ><br><br>
+                <label for="gender">Género: </label><br>
+                <input type="radio" name="gender" value="male"> Hombre
+                <input type="radio" name="gender" value="female"> Mujer<br><br>
+                <label for="PAd">Actividad física Deportiva: </label><br>
+                <input type="radio" name="PAd" value="sedentary"> Sedentaria
+                <input type="radio" name="PAd" value="moderate"> Moderada
+                <input type="radio" name="PAd" value="active"> Activa
+                <input type="radio" name="PAd" value="very active"> Muy Activa <br><br>
+                <label for="PAnd">Actividad física No Deportiva: </label><br>
+                <input type="radio" name="PAnd" value="sedentary"> Sedentaria
+                <input type="radio" name="PAnd" value="moderate"> Moderada
+                <input type="radio" name="PAnd" value="active"> Activa
+                <input type="radio" name="PAnd" value="very active"> Muy Activa <br><br>
+                    
+                    
+            
+                    <div id="button_container">
+                        <input type="submit" id="calc_btn" value="Calcular" onclick="GETD_calculator()">
+                        <input type="button" id ="new_calc_btn" value="Borrar Datos Existentes" onclick="Clean()"/>
+                    </div>
+        
+                    <div id="getd_output_container">
+        
+                    </div>
+        
+            </div>
+            <div class="IMC_container"> <!-- container-->
+
+                <h2>Calculadora De Indice De Masa Corporal</h2><br>
+        
+                <div class="input_fields">
+                    <label for="weight">Peso (kg): </label>
+                    <input type= "text", id="weight"><br>
+                    <label for="height">Altura (m): </label>
+                    <input type= "text", id="height" input><br><br>
+                </div>
+        
+                <div class ="button_container">
+                    <input type="submit" id="BMI_btn" value="Calcular IMC" onclick="BMI_calculator()">
+                </div>
+        
+            
+                <div id="output_container">
+        
+                </div>
+            </div >
+
+        
+        
+       
+     </div>
+    </div>
+<footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 col-sm-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href=about.html>Sobre el producto</a></li>
+                        <li><a href="menu.html">Beneficios</a></li>
+                        <li><a href="contact.html">Calculadora</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Direccion</h5>
+                    <address>
+                        Av. Simón Bolívar Km. 2½, vía a
+                        Nayón. Sector Tanda, tras la
+                        Casa de la Selección <br><br>
+
+                 <i class="fa fa-phone fa-lg"></i>: +1800 CAMPOVERDE (226768) <br>
+
+                 <i class="fa fa-phone fa-lg"></i>: Convencional: 2889 639<br>
+
+                 <i class="fa fa-phone fa-lg"></i>: Convencional: 2889 369<br>
+
+                 <i class="fa fa-phone fa-lg"></i>: Admisiones: 099 959 5539<br>
+
+                 <i class="fa fa-phone fa-lg"></i>: Institucional: 099 959 5674<br><br>
+
+                    
+                      <i class="fa fa-envelope fa-lg"></i>: 
+                      <a href="mailto:confusion@food.net">informacion@liceocampoverde.edu.ec
+
+                      </a>
+               </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Bachillerato Hecho Por IR</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+ 
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://use.fontawesome.com/5f877ec309.js"></script>
+
+</body>
